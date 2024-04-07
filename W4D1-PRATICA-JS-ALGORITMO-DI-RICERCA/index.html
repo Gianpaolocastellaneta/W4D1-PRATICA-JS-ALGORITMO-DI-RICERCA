@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Search</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+
+<body>
+  <header>
+    <h1 class=title>Find Your Dream Job <img src="/assets/img/job.png " alt="icon job"></h1>
+  </header>
+  <main>
+
+    <label for="jobTitle">Job Title</label>
+    <input type="text" id="jobTitle" placeholder="Insert job" value="">
+
+    <label for="jobLocation">Job Location</label>
+    <input type="text" id="jobLocation" placeholder="Insert location" value=""> 
+
+    <button id="searchButton" onclick="search()">Search</button>
+
+
+    <ul id="results">Results</ul>
+    <img src="/assets/img/loading.gif" alt="loading results animation">
+
+  </main>
+
+  <script src="/assets/scaricabile.js" defer></script>
+</body>
+
+</html>
